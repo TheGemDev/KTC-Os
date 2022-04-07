@@ -1,0 +1,24 @@
+name: Auto Build
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches: [main]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build_and_deploy_to_pages:
+    # The type of runner that the job will run on
+    - name: Upload to GitHub Pages
+      uses: crazy-max/ghaction-github-pages@v2.0.1
+      with:
+        # Build directory to deploy
+        build_dir: src
+        # The committer name and email address
+        committer: Auto Builder
+        # Commit message
+        commit_message: Auto Built nightly OS build
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
