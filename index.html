@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/screens/lockscreen/main.css" />
+
+    <!--
+        html imports are deprecated in html5, but we still need to import them for
+        <link rel="import" href="screens/lockScreen/index.html" />
+    
+        best fix so far but still not a good idea
+        <iframe src="screens/lockScreen/index.html" seamless height="100px" width="700px" aria-multiline="true"></iframe>
+    -->
+
+    <title>KTC OS</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="center-content">
+        <div class="lc-profile-pic"></div>
+        <div class="lc-profile-name">
+            <h1>KTC</div>
+        </div>
+        <div class="lc-profile-password"></div>
+      </div>
+    </div>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
