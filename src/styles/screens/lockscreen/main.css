@@ -35,7 +35,7 @@ iframe[seamless] {
   border: solid 6px #fff;
   border-radius: 50%;
   border-bottom-left-radius: 30px;
-  box-shadow: 4px 4px 5px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 5px 5px 1px rgba(0, 0, 0, 0.5);
   background-size: cover;
 }
 
