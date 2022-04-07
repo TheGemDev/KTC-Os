@@ -7,16 +7,29 @@ iframe[seamless] {
 
 /* Language: css */
 
+/*@keyframes animatename {
+  0% {
+    transform: translateY(-800px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(-90);
+  }
+}
+*/
+
 .center-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -100%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  /*animation: animatename 2s ease-in-out infinite;*/
 }
 
 .lc-profile-pic {
-  width: 200px;
-  height: 200px;
-  background: red;
+  width: 250px;
+  height: 250px;
+  background: #438c8f;
   border-radius: 50%;
+  box-shadow: ;
 }
