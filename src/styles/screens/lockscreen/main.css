@@ -1,0 +1,22 @@
+body {
+  background-image: url("../../../images/backgrounds/lockscreen/1.jpg");
+}
+iframe[seamless] {
+  border: none;
+}
+
+/* Language: css */
+
+.center-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+.lc-profile-pic {
+  width: 200px;
+  height: 200px;
+  background: red;
+  border-radius: 50%;
+}
