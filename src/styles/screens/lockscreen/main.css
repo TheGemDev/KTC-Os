@@ -1,6 +1,7 @@
 body {
   background-image: url("../../../images/backgrounds/lockscreen/1.png");
-  background-size: cover;
+  background-size: 100%;
+
 }
 iframe[seamless] {
   border: none;
@@ -28,13 +29,12 @@ iframe[seamless] {
 }
 
 .lc-profile-pic {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   background-image: url(../../../images/profile/profile1.jpg);
 
   border: solid 6px #fff;
   border-radius: 50%;
-  border-bottom-left-radius: 30px;
   box-shadow: 4px 5px 5px 1px rgba(0, 0, 0, 0.5);
   background-size: cover;
 }
@@ -47,7 +47,55 @@ iframe[seamless] {
 }
 
 .lc-profile-name {
-  transform: translate(-50%, -70%);
   font-family: "Capsule", serif;
   font-size: 20px;
+  text-align: center;
+  
+
+  
+}
+
+input[type="password"] {
+  position:absolute;
+  width: 25%;
+  height:30px;
+  border:none;
+  border-bottom: 2px solid fuchsia;
+  background:black;
+  opacity:50%;
+  border-radius: 10px;
+  color:white;
+  font-size:20px;
+  font-weight:lighter;
+  left:38%;
+  top:65%;
+  transition: 2s ease-in;
+
+  
+}
+input[type="submit"] {
+  position:absolute;
+  width:40px;
+  height:32px;
+  top:65%;
+  left: 63.5%;
+  border:none;
+  border-radius:20%;
+  background-color:black;
+  opacity:50%;
+  color:white;
+  opacity:25%;
+  font-size: 18px;
+  
+  
+}
+input[type="submit"]:hover{
+  background-color: #fff;
+  color:blueviolet;
+
+  
+}
+#kwik-settings{
+  top:90%;
+  right:90%;
 }
