@@ -65,7 +65,7 @@ input[type="password"] {
   opacity:50%;
   border-radius: 10px;
   color:white;
-  font-size:20px;
+  font-size:15px;
   font-weight:lighter;
   left:38%;
   top:65%;
@@ -95,7 +95,4 @@ input[type="submit"]:hover{
 
   
 }
-#kwik-settings{
-  top:90%;
-  right:90%;
-}
+
